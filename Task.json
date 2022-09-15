@@ -1,0 +1,122 @@
+[
+    {
+       "tasks.profile.name":"Timetracker v1",
+       "tasks.profile.date":"20220914T231639",
+       "tasks.profile.length":9,
+       "tasks.profile.size":424,
+       "tasks.profile.data":[
+          {
+             "tasks.profile.fields":{
+                "field1":"true",
+                "field7":"false",
+                "field6":"false",
+                "field8":"1",
+                "field3":"true",
+                "field2":"true",
+                "field5":"true",
+                "field4":"true"
+             },
+             "tasks.profile.config":{
+                "itemTaskExtra":"",
+                "requestType":"92",
+                "itemTask":"f9",
+                "itemDescription":"MON,TUE,WED,THU,FRI\nPerform the tasks below"
+             }
+          },
+          {
+             "tasks.profile.fields":{
+                "field1":"HTTPRESULT",
+                "field2":"empty"
+             },
+             "tasks.profile.config":{
+                "itemTaskExtra":"",
+                "requestType":"837",
+                "itemTask":"[{VAR_HTTPRESULT}]empty",
+                "itemDescription":"HTTPRESULT\nempty"
+             }
+          },
+          {
+             "tasks.profile.fields":{
+                "field1":"{VAR_TIMETRACKERSHEETURL}",
+                "field3":"action=addItem;device={DEVICE};secret={VAR_SECRET};",
+                "field2":"HTTPRESULT"
+             },
+             "tasks.profile.config":{
+                "itemTaskExtra":"",
+                "requestType":"111",
+                "itemTask":"{VAR_TIMETRACKERSHEETURL}|HTTPRESULT|action=addItem;device={DEVICE};secret={VAR_SECRET};",
+                "itemDescription":"Request: {VAR_TIMETRACKERSHEETURL}\nVariable: {VAR_HTTPRESULT}\nPOST parameters :\nName: action \/ Value: addItem\nName: device \/ Value: {DEVICE}\nName: secret \/ Value: {VAR_SECRET}"
+             }
+          },
+          {
+             "tasks.profile.fields":{
+                "field1":"Timetracker",
+                "field2":"request send"
+             },
+             "tasks.profile.config":{
+                "itemTaskExtra":"",
+                "requestType":"89",
+                "itemTask":"[Timetracker]request send",
+                "itemDescription":"Timetracker\nrequest send"
+             }
+          },
+          {
+             "tasks.profile.fields":{
+                "field1":"2"
+             },
+             "tasks.profile.config":{
+                "itemTaskExtra":"",
+                "requestType":"819",
+                "itemTask":"3",
+                "itemDescription":"3 seconds"
+             }
+          },
+          {
+             "tasks.profile.fields":{
+                "field1":"Timetracker",
+                "field2":"{VAR_HTTPRESULT}"
+             },
+             "tasks.profile.config":{
+                "itemTaskExtra":"",
+                "requestType":"89",
+                "itemTask":"[Timetracker]{VAR_HTTPRESULT}",
+                "itemDescription":"Timetracker\n{VAR_HTTPRESULT}"
+             }
+          },
+          {
+             "tasks.profile.fields":{
+                "field1":"1"
+             },
+             "tasks.profile.config":{
+                "itemTaskExtra":"",
+                "requestType":"990",
+                "itemTask":"1",
+                "itemDescription":"Create an else block for your condition"
+             }
+          },
+          {
+             "tasks.profile.fields":{
+                "field1":"Timetracker",
+                "field2":"it's fuckin weekend freak!"
+             },
+             "tasks.profile.config":{
+                "itemTaskExtra":"",
+                "requestType":"89",
+                "itemTask":"[Timetracker]it's fuckin weekend freak!",
+                "itemDescription":"Timetracker\nit's fuckin weekend freak!"
+             }
+          },
+          {
+             "tasks.profile.fields":{
+                "field1":"1"
+             },
+             "tasks.profile.config":{
+                "itemTaskExtra":"",
+                "requestType":"90",
+                "itemTask":"1",
+                "itemDescription":"Close your conditional block"
+             }
+          }
+       ]
+    }
+ ]
